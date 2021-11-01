@@ -1,0 +1,315 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	/* color: #000; */
+	/* font-family:""; */
+	font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ------------------------------ */
+.wrapper {
+	background-color: #F5F5F5;
+}
+.header {
+	/* background-color: #F5F5F5; */
+	text-align: center;
+	font-size: 50px;
+	margin: 20px auto 50px auto; 
+}
+.main {
+	background: url("../img/mainpage/background/Blob2.png") 100% 0% no-repeat;
+}
+/* Не понимаю почему в 1020px не влезает */
+.our_services {
+	max-width: 1030px;
+	margin: 0px auto;	
+}
+.our_services p:nth-child(1) {
+	color: rgba(93, 98, 181, 1);
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	margin: 0px auto 33px auto;
+}
+.our_services p:nth-child(1)::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/icons/Overline\ Mark.svg") 0 0 no-repeat;
+	width: 17px;
+	height: 16px;
+	margin-right: 16px;
+	padding: 10px;
+	vertical-align: top;
+}
+.our_services h2 {
+	color: #000;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	margin: 0px auto 78px auto;
+}
+
+.type_of_service {
+	display: inline-block;
+	width: 324px;
+	text-align: center;
+	margin: 0px 24px 24px 0px;
+	padding: 50px 44px 50px 43px;
+	border-radius: 20px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+.type_of_service:nth-child(3) {
+	margin: 0px 0px 24px 0px;
+}
+.type_of_service:nth-child(6) {
+	margin: 0px 0px 24px 0px;
+} 
+.type_of_service:hover {
+	box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24)
+}
+.type_of_service img {
+	width: 63px;
+	height: 63px;
+	margin-bottom: 33px;
+}
+.type_of_service h3 {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color: #F2726F;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.type_of_service p {
+	
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #4B4B4B;
+	margin-bottom: 49px;
+	text-align: center;
+	letter-spacing: 0.15px;
+}
+.red_button {
+  text-align: center;
+  margin-bottom: 20px ;
+}
+.button {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #f2726f;
+  border-radius: 8px;
+  padding: 12px 24px;
+}
+ /*  */
+.dog_our_promise {
+	font-size: 0;
+	max-width: 1020px;
+	margin: 0px auto 200px auto;
+}
+.our_promise {
+	display: inline-block;
+	margin: 0px auto;
+}
+.our_promise_title {
+	color: #5D62B5;
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: 700;
+	align-items: center;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	margin: 0px auto 33px auto;
+}
+.our_promise_title p::before {
+	content: "";
+	display: inline-block;
+	width: 17px;
+	height: 16px;
+	padding: 16px;
+	background: url("../img/icons/Overline\ Mark.svg") 0 0 no-repeat;
+	vertical-align: top;
+	margin-right: 16px;
+	padding: 10px;
+}
+.our_promise_subtitle {
+	color: #000;
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: 900;
+	margin: 0px auto 68px auto;	
+}
+.our_promise_item {
+	display: inline-block;
+	vertical-align: top;
+	width: 324px;
+	margin-right: 24px;
+}
+.our_promise_item:last-child {
+	margin-right: 0px;
+}
+.our_promise_item_image {
+	display: inline-block;
+	vertical-align: top;
+	width: 63px;
+	margin-right: 23px;
+}
+.our_promise_text {
+	display: inline-block;
+	width: 235px;
+	vertical-align: top;
+}
+.our_promise_text_title{
+	color: #F2726F;
+	font-size: 19px;
+	line-height: 26px;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+.our_promise_text_subtitle {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+}
+/* макет с собакой */
+.impact {
+	background: #29C3BE  url("../img/mainpage/background/Blob1.png") 65% 0 no-repeat;
+}
+.impact_wrapper {
+	max-width: 1020px;
+	margin: 0px auto;
+}
+.block_impact_one picture {
+	display: inline-block;
+	margin: -80px 0px 85px auto;
+	max-width: 100%;
+	border-radius: 40px;
+	vertical-align: top;
+	overflow: hidden;
+}
+.our_impact {
+	display: inline-block;
+	margin-top: 112px;
+	margin-right: 105px;
+	max-width: 411px;
+}
+.our_impact_text_title {
+	display: inline-block;
+	color: #FFF;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0px auto 33px auto;
+	align-items: center;
+}
+.our_impact_text_title h2::before {
+	content: "";
+	display: inline-block;
+	width: 17px;
+	height: 16px;
+	padding: 5px;
+	background: url("../img/icons/Overline\ Mark.svg") 0 0 no-repeat;
+	vertical-align: top;
+	margin-right: 16px;
+	padding: 10px;
+}
+.our_impact_text_subtitle {
+	display: inline-block;
+	color: #FFF;
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 42px;
+	margin-bottom: 79px;	
+}
+.four_impact {
+	display: inline-block;
+	padding-bottom: 212px;
+}
+.impact_item {
+	font-size: 0px;
+	display: inline-block;
+	max-width: 237px;
+	vertical-align: top;
+}
+.impact_item_img {
+	display: inline-block;
+	margin: 0px 11px 0px 0px;	
+}
+.impact_item_text {
+	display: inline-block;
+	width: 150px;
+	text-align: left;
+	vertical-align: top;
+}
+.impact_item_tex_title {
+	color: #FFF;
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: 900;
+}
+.impact_item_tex_subtitle {
+	color: #5D62B5;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+}
